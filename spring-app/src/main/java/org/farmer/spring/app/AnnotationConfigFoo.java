@@ -1,6 +1,6 @@
 package org.farmer.spring.app;
 
-import org.farmer.spring.app.annotation.PrimaryConfigFoo;
+import org.farmer.spring.app.injection.PrimaryConfigFoo;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;

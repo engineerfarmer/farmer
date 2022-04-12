@@ -1,4 +1,4 @@
-package org.farmer.spring.app.annotation;
+package org.farmer.spring.app.injection;
 
 import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.Bean;
