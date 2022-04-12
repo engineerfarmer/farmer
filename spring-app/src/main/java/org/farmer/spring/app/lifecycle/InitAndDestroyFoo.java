@@ -5,6 +5,7 @@ import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
+import javax.annotation.Resource;
 
 /**
  * @author wuwenjun
@@ -14,9 +15,15 @@ import javax.annotation.PreDestroy;
 @Component
 public class InitAndDestroyFoo {
 
+  @Resource private DependencyFoo dependencyFoo;
+
+  public InitAndDestroyFoo() {
+    log.info("Execute constructor");
+  }
+
   @PostConstruct
   public void init() {
-    log.info("Executing init");
+    log.info("Executing init {}", this.dependencyFoo);
   }
 
   @PreDestroy
