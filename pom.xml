@@ -13,6 +13,7 @@
         <module>spring-web-app</module>
         <module>spring-boot-app</module>
         <module>spring-cloud-app</module>
+        <module>farmer-app</module>
     </modules>
 
     <properties>
