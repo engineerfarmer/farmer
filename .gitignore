@@ -1,10 +1,1 @@
-./farmer.iml
-/spring-app/spring-app.iml
-/spring-boot-app/spring-boot-app.iml
-/spring-cloud-app/spring-cloud-app.iml
-/spring-web-app/spring-web-app.iml
-
-/spring-app/target/
-/spring-boot-app/target/
-/spring-cloud-app/target/
-/spring-web-app/target/
+farmer.iml
